@@ -148,7 +148,7 @@ hr {
 }
 #imagediv3 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 #DrivingLessonImg {
     padding-right: 5%;
