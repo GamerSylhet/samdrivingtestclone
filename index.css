@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(226, 226, 226);
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#SAMLOGO {
+    width: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+}
+#early-test-booking-btn {
+    margin-bottom: 10px;
+}
+#secline {
+    margin-bottom: 10px;
+}
+#orderbuttons {
+    display: flex;
+    flex-direction: column;
+}
+.linktext {
+    color: white;
+}
+.buttonclass {
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 0;
+    border: 0;
+    padding: 10px;
+}
+#join-us-btn {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+nav {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.733);
+    margin: 20px;
+    border-radius: 10px;
+}
+#navul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+li {
+    list-style-type: none;
+}
+.classli {
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+}
+#section1 {
+    text-align: center;
+}
+#phoneicon {
+    margin-top: 20px;
+    width: 25px;
+}
+#numberhome {
+    color: rgba(255, 0, 0, 0.733);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#imagediv {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#SAMHEADER1111 {
+    width: 85%;
+    margin-top: 20px;
+}
+.fbandig {
+    padding: 5px;
+}
+#icondiv {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+#section2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;    
+}
+.section2items {
+    width: 90%;
+}
+#landdiv {
+    margin-top: 20px;
+}
+#learntodrive{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#ltddiv {
+    background-color: rgb(96, 96, 96);
+    width: 90%;
+    text-align: left;
+    padding: 15px 10px 30px;
+}
+hr {
+    background-color: rgba(255, 0, 0, 0.733);
+    height: 5px;
+    border: none;
+    margin: 20px 0 10px 0;
+}
+#learn-more-btn {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+#imagediv2 {
+    display: flex;
+    justify-content: start;
+}
+#becomeaninstructor{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#baidiv {
+    margin-top: 20px;
+    background-color: rgb(96, 96, 96);
+    width: 90%;
+    text-align: right;
+    padding: 15px 10px 30px;
+}
+#imagediv3 {
+    display: flex;
+    justify-content: end;
+}
+#DrivingLessonImg {
+    padding-right: 5%;
+}
+#Training {
+    padding-left: 5%;
+}
+#ratings1span {
+    font-size: 18px;
+}
+#ratings2span {
+    font-size: 20px;
+    font-weight: bold;
+}
+#googleratingimg {
+    width: 45%;
+    margin-top: 20px;
+}
+.boxtext {
+    color: white;
+    font-size: 18px;
+}
+#spantext {
+    font-size: 17px;
+    padding: 12px;
+    margin: 12px;
+}
+#spantext2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+#section3 {
+    background-color: rgba(255, 0, 0, 0.808);
+    padding: 20px;
+}
+#span22 {
+    text-transform:uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bolder21 {
+    font-weight: bold;
+}
+#buttontype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 5px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#gddiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+}
+#gdimg {
+    width: 65%;
+    border: 4px solid black;
+}
+footer {
+    background-color: rgb(56, 54, 54);
+}
+#fsdiv1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0px;
+}
+#SAMLOGOlast {
+    width: 35%;
+    margin: 12px 0 15px 0;
+}
+#fsspan1 {
+    color: white;
+    font-weight: 0;
+}
+#fsspan2 {
+    font-size: 14px;
+    color: white;
+    font-weight: 0;
+}
+#likeusimg {
+    width: 12%;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+#likeus {
+    text-align: center;
+    margin-top: 2.5%;
+}
+#refunddiv {
+    margin-top: 4%;
+    text-align: center;
+}
+#refundp {
+    border: 2px solid white;
+    padding: 3px 12px 3px 12px;
+}
+#legelbadge {
+    text-align: center;
+    margin-top: 3%;
+}
+.lastlogos {
+    padding: 0 3%;
+}
+#go-top-btn {
+    background-color: rgba(0, 0, 0, 0.438);
+    position: fixed;
+    bottom: 10%;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2.5%;
+    border: 1px dashed white;
+}
