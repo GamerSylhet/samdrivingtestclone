@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(226, 226, 226);
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#SAMLOGO {
+    width: 40%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+}
+#early-test-booking-btn {
+    margin-bottom: 10px;
+}
+#secline {
+    margin-bottom: 10px;
+}
+#orderbuttons {
+    display: flex;
+    flex-direction: column;
+}
+.linktext {
+    color: white;
+}
+.buttonclass {
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 0;
+    border: 0;
+    padding: 10px;
+}
+#join-us-btn {
+    background-color: rgba(255, 0, 0, 0.733);
+}
+nav {
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.733);
+    margin: 20px;
+    border-radius: 10px;
+}
+#navul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+li {
+    list-style-type: none;
+}
+.classli {
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px;
+}
+#section1 {
+    text-align: left;
+    padding: 3%;
+}
+h2 {
+    text-align: center;
+    font-weight: 600;
+}
+#orditlogo {
+    padding-left: 3%;
+    width: 40%;
+}
+.spantext {
+    display: block;
+    margin: 2% 2% 10% 2%;
+}
+.spantext2 {
+    padding-left: 1%;
+    display: block;
+    font-size: 19px;
+    font-weight: 500;
+}
+#cntactus {
+    display: block;
+    margin-bottom: 20%;
+}
+
+
+/* footer start */
+
+footer {
+    margin-top: 50%;
+    background-color: rgb(56, 54, 54);
+}
+#fsdiv1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 0px;
+}
+#SAMLOGOlast {
+    width: 35%;
+    margin: 12px 0 15px 0;
+}
+#fsspan1 {
+    color: white;
+    font-weight: 0;
+    padding-left: 4px;
+}
+#fsspan2 {
+    font-size: 14px;
+    color: white;
+    font-weight: 0;
+}
+#likeusimg {
+    width: 12%;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+#likeus {
+    text-align: center;
+    margin-top: 2.5%;
+}
+#refunddiv {
+    margin-top: 4%;
+    text-align: center;
+}
+#refundp {
+    border: 2px solid white;
+    padding: 3px 12px 3px 12px;
+}
+#legelbadge {
+    text-align: center;
+    margin-top: 3%;
+}
+.lastlogos {
+    padding: 0 3%;
+    width: 30%;
+}
+#go-top-btn {
+    background-color: rgba(0, 0, 0, 0.438);
+    position: fixed;
+    bottom: 10%;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2.5%;
+    border: 1px dashed white;
+}
